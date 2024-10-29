@@ -1,0 +1,19 @@
+{
+  "name": "daily-challenges",
+  "version": "1.0.0",
+  "description": "- [06: Playwright expect.poll](https://www.facebook.com/share/p/Yox5iJ9ksCuzpEBt/)#\u0000 \u0000d\u0000a\u0000i\u0000l\u0000y\u0000-\u0000c\u0000h\u0000a\u0000l\u0000l\u0000e\u0000n\u0000g\u0000e\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "parse": "^5.3.0"
+  }
+}
