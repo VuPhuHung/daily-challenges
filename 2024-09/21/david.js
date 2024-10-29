@@ -19,11 +19,13 @@ Email là một thông tin nhạy cảm và đôi khi chúng ta cần thay thế
 **Giải thích**:
 Trong chuỗi `"john.doe@example.com"` và `"support@mydomain.com"` đều là các địa chỉ email, nên cả hai được thay thế bằng `"hidden@example.com"`. */
 
-function replaceEmail(email) {
-  let newEmail = email.split("@");
-  newEmail[0] = "hidden";
-  newEmail = newEmail.join("@");
-  return newEmail;
+function replaceEmail(email){
+    let newEmail = email.split("@");
+    email = newEmail[0];
+    newEmail[0] = "hidden";
+    newEmail = newEmail.join("@");
+    return newEmail;
+
 }
 console.log('Liên hệ với tôi qua email: '+ replaceEmail("john.doe@example.com"));
 console.log('Liên hệ với tôi qua email: '+ replaceEmail("support@mydomain.com"));

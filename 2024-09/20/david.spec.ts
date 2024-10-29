@@ -82,5 +82,6 @@ test('Solution day 5', async ({ page }) => {
         await expect(page.locator('//p[@id="clickType"]')).toHaveText("Loại nhấn: Đơn");
         await expect(page.locator('//p[@id="modifierKeys"]')).toHaveText("Phím kèm theo: Shift");
     })
+
 })
 
