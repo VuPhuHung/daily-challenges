@@ -65,7 +65,6 @@ test('2024-09 day 26', async ({ page }) => {
     rows = await page.locator('#studentTable tbody tr').all();
     for (const row of rows) {
         if (await row.isVisible()) {
-            
             visibleCount++;
         }
     }
